@@ -11,16 +11,16 @@
 - - - -
 
 ### Home ###
-![](https://i.ibb.co/34FXqX4/Home.png)
+<img src="https://i.ibb.co/34FXqX4/Home.png" width="250" height="400">
 
 ### RecyclerView Example ###
-![](https://i.ibb.co/hXPyD0c/Recycler-View.png)
+<img src="https://i.ibb.co/hXPyD0c/Recycler-View.png" width="250" height="400">
 
 ### SearchView Example ###
-![](https://i.ibb.co/T29FZYZ/Search-View.png)
+<img src="https://i.ibb.co/T29FZYZ/Search-View.png" width="250" height="400">
 
 ### SearchView With Filter Example ###
-![](https://i.ibb.co/3BXJj0s/Search-View-With-Filter.png)
+<img src="https://i.ibb.co/3BXJj0s/Search-View-With-Filter.png" width="250" height="400">
 
 ### Custom Dialog (coming soon)
 
