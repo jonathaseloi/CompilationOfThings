@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv"/>
+
+    <!--FILTER VIEW-->
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:id="@+id/vFilter"
+            android:background="#fff">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/rlNome">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Nome: "
+                android:id="@+id/tvNome"
+                android:layout_centerVertical="true"/>
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etNome"
+                android:layout_toRightOf="@id/tvNome"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/rlProfissao"
+                android:layout_below="@id/rlNome">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Profissão: "
+                android:id="@+id/tvProfissao"
+                android:layout_centerVertical="true"/>
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etProfissao"
+                android:layout_toRightOf="@id/tvProfissao"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:hint="Buscar"
+                android:id="@+id/btnBuscar"
+                android:layout_below="@id/rlProfissao"/>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#ccc"
+                android:layout_below="@id/btnBuscar"/>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+            android:id="@+id/action_search"
+            android:icon="@drawable/ic_search_white"
+            android:title="favorite"
+            app:actionViewClass="android.widget.SearchView"
+            app:showAsAction="always"/>
+
+    <item android:id="@+id/action_filter"
+          android:title="filter"
+          android:icon="@drawable/ic_filter_white"
+          android:visible="false"
+          app:showAsAction="always"/>
+
+</menu>
