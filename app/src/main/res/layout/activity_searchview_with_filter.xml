@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:visibility="gone"
+            android:visibility="visible"
             android:id="@+id/vFilter"
             android:background="#fff">
 
@@ -28,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="5dp"
-                android:text="Nome: "
+                android:text="@string/nome"
                 android:id="@+id/tvNome"
                 android:layout_centerVertical="true"/>
 
@@ -36,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/etNome"
-                android:layout_toRightOf="@id/tvNome"
+                android:layout_toEndOf="@id/tvNome"
                 android:layout_centerVertical="true"/>
         </RelativeLayout>
 
@@ -50,7 +50,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="5dp"
-                android:text="Profissão: "
+                android:text="@string/profissao_filter"
                 android:id="@+id/tvProfissao"
                 android:layout_centerVertical="true"/>
 
@@ -58,7 +58,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/etProfissao"
-                android:layout_toRightOf="@id/tvProfissao"
+                android:layout_toEndOf="@id/tvProfissao"
                 android:layout_centerVertical="true"/>
 
         </RelativeLayout>
@@ -67,9 +67,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="5dp"
-                android:hint="Buscar"
+                android:text="@string/buscar"
                 android:id="@+id/btnBuscar"
-                android:layout_below="@id/rlProfissao"/>
+                android:layout_below="@id/rlProfissao"
+                android:textColor="#fff"
+                android:background="@drawable/button_shape"
+        />
         <View
                 android:layout_width="match_parent"
                 android:layout_height="2dp"

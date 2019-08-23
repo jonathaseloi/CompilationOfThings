@@ -3,6 +3,7 @@ package jonathaseloi.com.compilationofthings
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import jonathaseloi.com.compilationofthings.datepicker.DatePickerActivity
 import jonathaseloi.com.compilationofthings.dialog.CustomDialogActivity
 import jonathaseloi.com.compilationofthings.recyclerview.RecyclerViewExemploActivity
 import jonathaseloi.com.compilationofthings.searchview.SearchViewActivity
@@ -26,8 +27,13 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        btnSearchBarWithFilter.setOnClickListener {
+        btnSearchViewWithFilter.setOnClickListener {
             val intent = Intent(applicationContext, SearchViewWithFilterActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnDatePicker.setOnClickListener {
+            val intent = Intent(applicationContext, DatePickerActivity::class.java)
             startActivity(intent)
         }
 

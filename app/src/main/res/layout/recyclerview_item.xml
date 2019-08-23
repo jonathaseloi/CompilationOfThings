@@ -32,14 +32,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/tvNome"
-                    android:text="José Almeida Carvalho Santos"
+                    android:text=""
                     android:layout_toEndOf="@+id/imageView"
                     android:layout_marginStart="9dp"/>
             <TextView
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:id="@+id/tvText"
-                    android:text="Profissão: Engenheiro Civil\nData de Nascimento: 16/01/1983\nEstado Civel: Casado"
+                    android:text=""
                     android:layout_toEndOf="@+id/imageView"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="5dp"

@@ -3,4 +3,23 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="form_cadastro">Formulário de Cadastro</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="profissao">Profissão</string>
+    <string name="data_nascimento">Data Nascimento: --/--/----</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="date">Date:</string>
+    <string name="date_format">--/--/----</string>
+    <string name="recyclerview">Recyclerview</string>
+    <string name="searchview">SearchView</string>
+    <string name="searchview_with_filter">SearchView With Filter</string>
+    <string name="date_picker">Date Picker</string>
+    <string name="validation">Validation</string>
+    <string name="custom_dialog">Custom Dialog</string>
+    <string name="nome">Nome:</string>
+    <string name="profissao_filter">Profissão:</string>
+    <string name="buscar">Buscar</string>
+    <string name="text_bob">This is Bob he\'s a dog !! Click on Bob</string>
+    <string name="bob">Bob</string>
+    <string name="latido">AuAU!!!</string>
 </resources>

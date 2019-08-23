@@ -1,22 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".validation.ValidationsActivity">
+        tools:context=".validation.ValidationsActivity"
+        android:padding="10dp">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_cadastro"
+            android:textSize="22sp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:id="@+id/tvFormulario"/>
 
     <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/tilUsername">
+            android:id="@+id/tilNomeCompleto"
+            android:layout_below="@id/tvFormulario">
 
         <android.support.design.widget.TextInputEditText
-                android:id="@+id/tietUsername"
+                android:id="@+id/tietNomeCompleto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="username"/>
+                android:hint="@string/nome_completo"/>
 
     </android.support.design.widget.TextInputLayout>
 
-</LinearLayout>
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tilProfissao"
+            android:layout_below="@id/tilNomeCompleto"
+            android:layout_marginBottom="10dp">
+
+        <android.support.design.widget.TextInputEditText
+                android:id="@+id/tietProfissao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/profissao"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tilDate"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/tilProfissao">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/data_nascimento"
+                android:textSize="18sp"
+                android:id="@+id/tvDataNascimento"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button_shape"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btnCadastrar"
+            android:text="@string/cadastrar"
+            android:layout_marginBottom="5dp"/>
+
+</RelativeLayout>

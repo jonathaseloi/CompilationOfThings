@@ -3,33 +3,27 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="10dp">
+        android:layout_height="wrap_content"
+        android:padding="10dp">
 
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="aaaaaaaaaa"/>
+            android:text="@string/text_bob"/>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image_drawable"
+            android:id="@+id/ivBob"
+            android:text="@string/bob"/>
 
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="aaaaaaaaaa"/>
-
-    <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="aaaaaaaaaa"/>
-
-    <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="aaaaaaaaaa"/>
-
-    <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/btnAplicar"
-            android:hint="Aplicar"/>
+            android:gravity="center_horizontal"
+            android:visibility="invisible"
+            android:id="@+id/tvBob"
+            android:text="@string/latido"/>
 
 </LinearLayout>
