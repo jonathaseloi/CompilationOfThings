@@ -13,9 +13,9 @@
 [6. DatePicker Example](#DatePicker-Example "Goto DatePicker Example")
 
 [7. Validation Form Example](#Validation-Form-Example "Goto Validation Form Example")
+
 - - - -
-<a href="https://ibb.co/p0K6thf"><img src="https://i.ibb.co/C19pkPb/form.png" alt="form" border="0"></a>
-<a href="https://ibb.co/1TvHg0Z"><img src="https://i.ibb.co/GRxg6d7/date-picker.png" alt="date-picker" border="0"></a>
+
 ### Home ###
 <img src="https://i.ibb.co/VBVGM9g/home2.png" width="250" height="400">
 
