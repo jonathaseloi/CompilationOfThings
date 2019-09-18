@@ -7,6 +7,9 @@
             android:name="android.permission.WRITE_EXTERNAL_STORAGE"
             tools:remove="android:maxSdkVersion" />
 
+    <uses-permission
+            android:name="android.permission.INTERNET" />
+
     <application
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
@@ -15,7 +18,9 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".drawimage.ImageActivity"/>
+        <activity android:name=".httpurlconnection.HttpUrlConnectionActivity"></activity>
+        <activity android:name=".linegraph.LineGraphActivity" />
+        <activity android:name=".drawimage.ImageActivity" />
         <activity android:name=".drawimage.DrawActivity" />
         <activity android:name=".cardslider.CardSliderActivity" />
         <activity android:name=".datepicker.DatePickerActivity" />

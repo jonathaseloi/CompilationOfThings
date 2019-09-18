@@ -24,4 +24,6 @@
     <string name="latido">AuAU!!!</string>
     <string name="cardslider">CardSlider</string>
     <string name="draw">Draw</string>
+    <string name="line_graph">Line Graph</string>
+    <string name="http_url_connection">Http Url Connection</string>
 </resources>

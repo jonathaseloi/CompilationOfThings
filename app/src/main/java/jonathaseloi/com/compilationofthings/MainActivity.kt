@@ -7,6 +7,8 @@ import jonathaseloi.com.compilationofthings.cardslider.CardSliderActivity
 import jonathaseloi.com.compilationofthings.datepicker.DatePickerActivity
 import jonathaseloi.com.compilationofthings.dialog.CustomDialogActivity
 import jonathaseloi.com.compilationofthings.drawimage.DrawActivity
+import jonathaseloi.com.compilationofthings.httpurlconnection.HttpUrlConnectionActivity
+import jonathaseloi.com.compilationofthings.linegraph.LineGraphActivity
 import jonathaseloi.com.compilationofthings.recyclerview.RecyclerViewExemploActivity
 import jonathaseloi.com.compilationofthings.searchview.SearchViewActivity
 import jonathaseloi.com.compilationofthings.searchviewwithfilter.SearchViewWithFilterActivity
@@ -57,6 +59,16 @@ class MainActivity : AppCompatActivity() {
 
         btnDraw.setOnClickListener {
             val intent = Intent(applicationContext, DrawActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnLineGraph.setOnClickListener {
+            val intent = Intent(applicationContext, LineGraphActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnHttpUrlConnection.setOnClickListener {
+            val intent = Intent(applicationContext, HttpUrlConnectionActivity::class.java)
             startActivity(intent)
         }
     }
