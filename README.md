@@ -1,17 +1,23 @@
 # CompilationOfThings
 
-[Home](#Home "Goto Home")
+[1. Home](#Home "Goto Home")
 
-[RecyclerView ](#RecyclerView-Example "Goto RecyclerView Example")
+[2. RecyclerView ](#RecyclerView-Example "Goto RecyclerView Example")
 
-[SearchView Example](#SearchView-Example "Goto SearchView Example")
+[3. SearchView Example](#SearchView-Example "Goto SearchView Example")
 
-[SearchView With Filter Example](#SearchView-With-Filter-Example "Goto SearchView With Filter Example")
+[4. SearchView With Filter Example](#SearchView-With-Filter-Example "Goto SearchView With Filter Example")
+
+[5. Custom Dialog Example](#Custom-Dialog-Example "Goto Custom Dialog Example")
+
+[6. DatePicker Example](#DatePicker-Example "Goto DatePicker Example")
+
+[7. Validation Form Example](#Validation-Form-Example "Goto Validation Form Example")
 
 - - - -
 
 ### Home ###
-<img src="https://i.ibb.co/34FXqX4/Home.png" width="250" height="400">
+<img src="https://i.ibb.co/VBVGM9g/home2.png" width="250" height="400">
 
 ### RecyclerView Example ###
 <img src="https://i.ibb.co/hXPyD0c/Recycler-View.png" width="250" height="400">
@@ -22,8 +28,11 @@
 ### SearchView With Filter Example ###
 <img src="https://i.ibb.co/3BXJj0s/Search-View-With-Filter.png" width="250" height="400">
 
-### Custom Dialog (coming soon)
+### Custom Dialog Example ###
+<img src="https://i.ibb.co/VQkWHjx/dialog.png" width="250" height="400">
 
-### DatePicker Example (coming soon)
+### DatePicker Example ###
+<img src="https://i.ibb.co/GRxg6d7/date-picker.png" width="250" height="400">
 
-### Validation Form (coming soon)
+### Validation Form Example ###
+<img src="https://i.ibb.co/C19pkPb/form.png" width="250" height="400">
