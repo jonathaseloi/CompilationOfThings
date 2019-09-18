@@ -1,8 +1,8 @@
 package jonathaseloi.com.compilationofthings
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import jonathaseloi.com.compilationofthings.datepicker.DatePickerActivity
 import jonathaseloi.com.compilationofthings.dialog.CustomDialogActivity
 import jonathaseloi.com.compilationofthings.recyclerview.RecyclerViewExemploActivity

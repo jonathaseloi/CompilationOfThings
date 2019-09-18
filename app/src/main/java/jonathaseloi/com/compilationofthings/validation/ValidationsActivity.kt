@@ -1,16 +1,14 @@
 package jonathaseloi.com.compilationofthings.validation
 
 import android.app.DatePickerDialog
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import jonathaseloi.com.compilationofthings.R
 import android.text.Editable
 import android.text.TextWatcher
-import kotlinx.android.synthetic.main.activity_date_picker.*
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_validations.*
 import java.text.SimpleDateFormat
 import java.util.*
-
 
 class ValidationsActivity : AppCompatActivity() {
 

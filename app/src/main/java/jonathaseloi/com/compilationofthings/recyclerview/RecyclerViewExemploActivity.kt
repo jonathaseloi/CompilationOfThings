@@ -1,10 +1,10 @@
 package jonathaseloi.com.compilationofthings.recyclerview
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v7.widget.RecyclerView
+import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import jonathaseloi.com.compilationofthings.R
-import android.support.v7.widget.LinearLayoutManager
 import jonathaseloi.com.compilationofthings.recyclerview.model.Pessoa
 import kotlinx.android.synthetic.main.activity_recycler_view_exemplo.*
 import java.util.*
@@ -35,7 +35,7 @@ class RecyclerViewExemploActivity : AppCompatActivity() {
     }
 
     private fun initRecyclerView() {
-        recyclerView = rv
+        recyclerView = rv as RecyclerView?
 
         adapterRv = ExemploAdapter(this, R.layout.recyclerview_item)
         mutableList?.let { adapterRv!!.addAll(it) }

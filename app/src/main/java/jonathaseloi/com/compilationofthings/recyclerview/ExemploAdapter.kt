@@ -1,13 +1,12 @@
 package jonathaseloi.com.compilationofthings.recyclerview
 
 import android.content.Context
-import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Filter
 import jonathaseloi.com.compilationofthings.recyclerview.model.Pessoa
 import android.widget.TextView
+import androidx.recyclerview.widget.RecyclerView
 import jonathaseloi.com.compilationofthings.R
 import java.text.SimpleDateFormat
 

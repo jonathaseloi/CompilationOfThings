@@ -1,14 +1,13 @@
 package jonathaseloi.com.compilationofthings.dialog
 
 import android.annotation.SuppressLint
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v7.app.AlertDialog
 import android.view.Gravity
 import android.view.View
 import android.view.View.*
+import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import jonathaseloi.com.compilationofthings.R
-import kotlinx.android.synthetic.main.dialog_custom.*
 import kotlinx.android.synthetic.main.dialog_custom.view.*
 
 class CustomDialogActivity : AppCompatActivity() {

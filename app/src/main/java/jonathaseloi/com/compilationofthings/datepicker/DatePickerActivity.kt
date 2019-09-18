@@ -1,9 +1,9 @@
 package jonathaseloi.com.compilationofthings.datepicker
 
 import android.app.DatePickerDialog
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import jonathaseloi.com.compilationofthings.R
 import kotlinx.android.synthetic.main.activity_date_picker.*
 import java.text.SimpleDateFormat

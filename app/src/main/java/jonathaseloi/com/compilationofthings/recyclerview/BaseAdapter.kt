@@ -1,11 +1,9 @@
 package jonathaseloi.com.compilationofthings.recyclerview
 
 import android.content.Context
-import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.Filter
-import android.widget.Filterable
+import androidx.recyclerview.widget.RecyclerView
 
 import java.util.ArrayList
 
