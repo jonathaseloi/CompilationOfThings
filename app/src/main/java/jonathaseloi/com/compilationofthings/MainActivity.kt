@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import jonathaseloi.com.compilationofthings.cardslider.CardSliderActivity
 import jonathaseloi.com.compilationofthings.datepicker.DatePickerActivity
 import jonathaseloi.com.compilationofthings.dialog.CustomDialogActivity
+import jonathaseloi.com.compilationofthings.drawimage.DrawActivity
 import jonathaseloi.com.compilationofthings.recyclerview.RecyclerViewExemploActivity
 import jonathaseloi.com.compilationofthings.searchview.SearchViewActivity
 import jonathaseloi.com.compilationofthings.searchviewwithfilter.SearchViewWithFilterActivity
@@ -51,6 +52,11 @@ class MainActivity : AppCompatActivity() {
 
         btnCardSlider.setOnClickListener {
             val intent = Intent(applicationContext, CardSliderActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnDraw.setOnClickListener {
+            val intent = Intent(applicationContext, DrawActivity::class.java)
             startActivity(intent)
         }
     }
