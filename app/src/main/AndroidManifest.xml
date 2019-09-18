@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         package="jonathaseloi.com.compilationofthings">
 
     <application
@@ -8,11 +9,14 @@
             android:label="@string/app_name"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
-            android:theme="@style/AppTheme">
-        <activity android:name=".cardslider.CardSliderActivity"></activity>
-        <activity android:name=".datepicker.DatePickerActivity"></activity>
-        <activity android:name=".dialog.CustomDialogActivity"></activity>
-        <activity android:name=".validation.ValidationsActivity"></activity>
+            android:theme="@style/AppTheme"
+            tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".drawimage.ImageActivity"/>
+        <activity android:name=".drawimage.DrawActivity" />
+        <activity android:name=".cardslider.CardSliderActivity" />
+        <activity android:name=".datepicker.DatePickerActivity" />
+        <activity android:name=".dialog.CustomDialogActivity" />
+        <activity android:name=".validation.ValidationsActivity" />
         <activity android:name=".searchview.SearchViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
@@ -31,7 +35,7 @@
                     android:name="android.app.searchable"
                     android:resource="@xml/searchable" />
         </activity>
-        <activity android:name=".recyclerview.RecyclerViewExemploActivity"></activity>
+        <activity android:name=".recyclerview.RecyclerViewExemploActivity" />
         <activity
                 android:name=".MainActivity"
                 android:theme="@style/AppTheme.Launcher">

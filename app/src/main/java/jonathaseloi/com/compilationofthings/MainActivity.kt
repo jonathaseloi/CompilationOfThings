@@ -3,6 +3,7 @@ package jonathaseloi.com.compilationofthings
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import jonathaseloi.com.compilationofthings.cardslider.CardSliderActivity
 import jonathaseloi.com.compilationofthings.datepicker.DatePickerActivity
 import jonathaseloi.com.compilationofthings.dialog.CustomDialogActivity
 import jonathaseloi.com.compilationofthings.recyclerview.RecyclerViewExemploActivity
@@ -45,6 +46,11 @@ class MainActivity : AppCompatActivity() {
 
         btnCustomDialog.setOnClickListener {
             val intent = Intent(applicationContext, CustomDialogActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnCardSlider.setOnClickListener {
+            val intent = Intent(applicationContext, CardSliderActivity::class.java)
             startActivity(intent)
         }
     }

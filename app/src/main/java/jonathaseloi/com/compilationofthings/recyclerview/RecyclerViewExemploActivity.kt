@@ -9,7 +9,6 @@ import jonathaseloi.com.compilationofthings.recyclerview.model.Pessoa
 import kotlinx.android.synthetic.main.activity_recycler_view_exemplo.*
 import java.util.*
 
-
 class RecyclerViewExemploActivity : AppCompatActivity() {
 
     private var recyclerView: RecyclerView? = null

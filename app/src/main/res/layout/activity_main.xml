@@ -65,5 +65,16 @@
             android:id="@+id/btnCustomDialog"
             android:textColor="#fff"
             android:background="@drawable/button_shape"
+            android:layout_marginBottom="5dp"
     />
+
+    <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cardslider"
+            android:id="@+id/btnCardSlider"
+            android:textColor="#fff"
+            android:background="@drawable/button_shape"
+            android:layout_marginBottom="5dp"
+            />
 </LinearLayout>

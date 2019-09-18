@@ -22,4 +22,5 @@
     <string name="text_bob">This is Bob he\'s a dog !! Click on Bob</string>
     <string name="bob">Bob</string>
     <string name="latido">AuAU!!!</string>
+    <string name="cardslider">CardSlider</string>
 </resources>
